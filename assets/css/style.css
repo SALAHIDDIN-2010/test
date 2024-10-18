@@ -1,0 +1,381 @@
+/* header_start */
+
+.header {
+    background: rgb(115, 173, 186);
+    width: 100%;
+    height: 42px;
+}
+
+.header_left_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_center {
+    display: flex;
+    justify-content: center;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.ul_wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.ul_wrapper1 {
+    display: flex;
+    gap: 40px;
+}
+
+/* header_end */
+
+/* hero_start */
+
+.hero {
+    background: url(../images/hero_bg_img.png), no-repeat;
+    width: 100%;
+    height: 850px;
+}
+
+.hero_title {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 59.95px;
+}
+
+.hero_suptitle {
+    width: 260px;
+    height: 90px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 180px;
+
+}
+
+.hero_btn {
+    width: 260px;
+    height: 52px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2px;
+
+    background: rgb(0, 0, 0);
+
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14.84px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box {
+    margin-top: 220px;
+    width: 100%;
+    height: 72px;
+    background: rgb(0, 0, 0);
+}
+
+.box_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.box_p {
+    padding-top: 16px;
+    padding-left: 29px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.box_btn {
+    margin-top: 16px;
+    margin-left: 410px;
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+
+    background: rgb(255, 255, 255);
+}
+
+/* hero_end */
+/* mental_start */
+.mental {
+    width: 100%;
+    height: 500px;
+}
+
+.mental_wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.mental_p_wrapper {
+    margin-top: 30px;
+    width: 633px;
+    height: 125px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31.2px;
+}
+
+.mental_h3_wrapper {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45.6px;
+}
+
+.mental_img {
+    width: 650px;
+    height: 229px;
+}
+
+/* mental_end */
+/* shop_start */
+.shop {
+    width: 100%;
+    height: 381px;
+}
+
+.shop_img {
+    width: 30px;
+    height: 30px;
+}
+
+.shop_h4_wrapper {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45.6px;
+}
+
+.shop_p_wrapper {
+    width: 287px;
+    height: 19px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+}
+
+.shop_btn {
+    width: 182px;
+    height: 36px;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+.box1 {
+    width: 290px;
+    height: 250px;
+    background: rgb(0, 84, 102);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.shop_wrapper_p {
+    color: rgb(246, 249, 229);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.1px;
+}
+
+.shop_suptitle {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.shop_img3 {
+    width: 68px;
+    height: 30px;
+}
+
+.box2 {
+    width: 290px;
+    height: 250px;
+    background: rgb(247, 216, 191);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_wrapper_p2 {
+    color: rgb(196, 123, 89);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.1px;
+}
+
+.box3 {
+    width: 290px;
+    height: 250px;
+    background: rgb(241, 250, 246);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop_wrapper_p3 {
+    color: rgb(100, 186, 161);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.1px;
+}
+
+/* shop_end */
+/* energy_start */
+.energy {
+    background: rgb(0, 84, 102);
+}
+
+.energy_wrapper {
+    display: flex;
+}
+
+.energy_title {
+    width: 822px;
+    height: 826px;
+}
+
+.energy_suptitle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.energy_h4_wrapper {
+    color: rgb(246, 249, 229);
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 62.7px;
+}
+
+.energy_p_wrapper {
+    width: 406px;
+    height: 90px;
+    color: rgb(246, 249, 229);
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.energy_btn {
+    width: 260px;
+    height: 52px;
+}
+
+/* energy_end */
+
+/* calm_start */
+.calm {
+    background: rgb(247, 216, 191);
+}
+
+.calm_wrapper {
+    display: flex;
+    justify-content: end;
+
+}
+
+.calm_title {
+    width: 822px;
+    height: 826px;
+}
+
+.calm_suptitle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.calm_h4_wrapper {
+    color: rgb(196, 123, 89);
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 62.7px;
+}
+
+.calm_p_wrapper {
+    color: rgb(196, 123, 89);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.calm_btn {
+    width: 260px;
+    height: 52px;
+
+    color: rgb(196, 123, 89);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14.84px;
+    box-sizing: border-box;
+    border: 2px solid rgb(196, 123, 89);
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* calm_end */
